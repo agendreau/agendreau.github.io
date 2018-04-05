@@ -1,0 +1,71 @@
+{
+  "id": "sensor_system",
+  "name": "sensor_system",
+  "title": "MakeCode Editor for SparkFun Sensor System",
+  "corepkg": "core",
+  "cloud": {
+    "workspace": false,
+    "packages": true
+  },
+  "runtime": {
+    "mathBlocks": true,
+    "loopsBlocks": true,
+    "logicBlocks": true,
+    "variablesBlocks": true,
+    "textBlocks": false,
+    "functionBlocks": false,
+    "listsBlocks": false
+  },
+  "simulator": {
+    "autoRun": true
+  },
+  "blocksprj": {
+    "id": "blocksprj",
+    "config": {
+      "name": "{0}",
+      "dependencies": {
+        "core": "*"
+      },
+      "description": "",
+      "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+      ]
+    },
+    "files": {
+      "README.md": " ",
+      "bundle.js": "(function(){function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require==\"function\"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error(\"Cannot find module '\"+o+\"'\");throw f.code=\"MODULE_NOT_FOUND\",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require==\"function\"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s}return e})()({1:[function(require,module,exports){\n \n},{}]},{},[1]);\n",
+      "main.blocks": "<xml xmlns=\"http://www.w3.org/1999/xhtml\">\n</xml>",
+      "main.ts": " "
+    }
+  },
+  "tsprj": {
+    "id": "tsprj",
+    "config": {
+      "name": "{0}",
+      "dependencies": {
+        "core": "*"
+      },
+      "description": "",
+      "files": [
+        "main.ts",
+        "README.md"
+      ]
+    },
+    "files": {
+      "README.md": " ",
+      "bundle.js": "(function(){function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require==\"function\"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error(\"Cannot find module '\"+o+\"'\");throw f.code=\"MODULE_NOT_FOUND\",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require==\"function\"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s}return e})()({1:[function(require,module,exports){\n \n},{}]},{},[1]);\n",
+      "main.ts": " "
+    }
+  },
+  "compile": {
+    "isNative": false,
+    "hasHex": false,
+    "floatingPoint": true
+  },
+  "versions": {
+    "target": "2.0.1",
+    "pxt": "3.4.8"
+  }
+}
