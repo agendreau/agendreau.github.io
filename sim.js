@@ -283,7 +283,7 @@ console.log(result.content);*/
                     switch (_a.label) {
                         case 0:
                             pxsim.console.log(sensor);
-                            return [4 /*yield*/, fetch('http://api.wunderground.com/api/' + sensor + '/conditions/q/CO/Denver.json')];
+                            return [4 /*yield*/, fetch('https://api.wunderground.com/api/' + sensor + '/conditions/q/CO/Denver.json')];
                         case 1:
                             response = _a.sent();
                             return [4 /*yield*/, response.json()];
@@ -312,7 +312,7 @@ console.log(result.content);*/
                     switch (_a.label) {
                         case 0:
                             pxsim.console.log(sensor);
-                            return [4 /*yield*/, fetch('http://api.wunderground.com/api/' + sensor + '/conditions/q/CO/Denver.json')];
+                            return [4 /*yield*/, fetch('https://api.wunderground.com/api/' + sensor + '/conditions/q/CO/Denver.json')];
                         case 1:
                             response = _a.sent();
                             return [4 /*yield*/, response.json()];
