@@ -124,7 +124,7 @@ console.log(result.content);*/
 //% weight = 75
 //% blockId=tvoc block="TVOC"
 /*export async function tvocAsync(){
-    const response = await fetch('http://api.wunderground.com/api/8f5846f4c43e4050/conditions/q/CO/Denver.json')
+    const response = await fetch('https://api.wunderground.com/api/8f5846f4c43e4050/conditions/q/CO/Denver.json')
     
         const json = await response.json();
     
@@ -142,7 +142,7 @@ console.log(result.content);*/
 //% weight = 70
 //% blockId=co2 block="CO2"
 /*export async function co2Async(){
-    const response = await fetch('http://api.wunderground.com/api/8f5846f4c43e4050/conditions/q/CO/Denver.json')
+    const response = await fetch('https://api.wunderground.com/api/8f5846f4c43e4050/conditions/q/CO/Denver.json')
     
         const json = await response.json();
     
@@ -237,7 +237,7 @@ console.log(result.content);*/
 //% weight = 75
 //% blockId=tvoc block="TVOC"
 /*export async function tvocAsync(){
-    const response = await fetch('http://api.wunderground.com/api/8f5846f4c43e4050/conditions/q/CO/Denver.json')
+    const response = await fetch('https://api.wunderground.com/api/8f5846f4c43e4050/conditions/q/CO/Denver.json')
     
         const json = await response.json();
     
@@ -255,7 +255,7 @@ console.log(result.content);*/
 //% weight = 70
 //% blockId=co2 block="CO2"
 /*export async function co2Async(){
-    const response = await fetch('http://api.wunderground.com/api/8f5846f4c43e4050/conditions/q/CO/Denver.json')
+    const response = await fetch('https://api.wunderground.com/api/8f5846f4c43e4050/conditions/q/CO/Denver.json')
     
         const json = await response.json();
     
