@@ -20,7 +20,7 @@ var pxtTargetBundle = {
     "listsBlocks": false
   },
   "simulator": {
-    "autoRun": true
+    "autoRun": false
   },
   "appTheme": {
     "logoUrl": "/./",

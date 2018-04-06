@@ -17,7 +17,7 @@
     "listsBlocks": false
   },
   "simulator": {
-    "autoRun": true
+    "autoRun": false
   },
   "blocksprj": {
     "id": "blocksprj",
