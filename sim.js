@@ -577,7 +577,7 @@ var pxsim;
             var textLabels = text
                 .attr("x", function (d) { return d.cx; })
                 .attr("y", function (d) { return d.cy; })
-                .text(function (d) { return d.cx; })
+                .text(function (d) { return ""; })
                 .attr("id", function (d) { return d.id + "_text"; })
                 .attr("font-family", "sans-serif")
                 .attr("font-size", "20px")
