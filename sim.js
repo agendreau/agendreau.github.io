@@ -278,7 +278,7 @@ console.log(result.content);*/
         //% blockId=humidity1 block="Humidity"
         function humidityAsync() {
             return __awaiter(this, void 0, void 0, function () {
-                var response, json, h;
+                var response, json, re, h;
                 return __generator(this, function (_a) {
                     switch (_a.label) {
                         case 0:
@@ -289,11 +289,13 @@ console.log(result.content);*/
                             return [4 /*yield*/, response.json()];
                         case 2:
                             json = _a.sent();
-                            pxsim.console.log(json.current_observation.relative_humidity.replace('%', ''));
-                            h = parseFloat(json.current_observation.relative_humidity.replace('%', ''));
+                            re = /%/gi;
+                            pxsim.console.log(json.current_observation.relative_humidity);
+                            pxsim.console.log(json.current_observation.relative_humidity.replace(re, ''));
+                            h = parseFloat(json.current_observation.relative_humidity.replace(re, ''));
                             pxsim.console.log("in update function");
                             //var svg = d3.select("humid").transform.attr("cy",50);
-                            d3.select("#humid_text").text(h);
+                            d3.select("#humid_text").text("Humid: \n" + h);
                             /*d3.select("#humid_text").attr("y",200-h);
                             d3.select("#humid").attr("cy",200-h);*/
                             pxsim.console.log("past update");
@@ -322,7 +324,7 @@ console.log(result.content);*/
                             t = parseFloat(json.current_observation.temp_f);
                             pxsim.console.log("in update function");
                             //var svg = d3.select("humid").transform.attr("cy",50);
-                            d3.select("#temp_text").text(t);
+                            d3.select("#temp_text").text("Temp: \n" + t);
                             /*d3.select("#temp_text").attr("y",200-t);
                             d3.select("#temp").attr("cy",200-t);*/
                             pxsim.console.log("past update");
@@ -356,16 +358,16 @@ console.log(result.content);*/
         function connect(name) {
             switch (name) {
                 case 0 /* Panda */:
-                    sensor = "8f5846f4c43e4050";
+                    sensor = "02fb20304a73bce1";
                     break;
                 case 1 /* Tiger */:
-                    sensor = "8f5846f4c43e4050";
+                    sensor = "434d63a333987665";
                     break;
                 case 2 /* Dolphin */:
-                    sensor = "8f5846f4c43e4050";
+                    sensor = "fc51f1c83be0df29";
                     break;
                 case 3 /* Gorilla */:
-                    sensor = "8f5846f4c43e4050";
+                    sensor = "b379867083543cc0";
                     break;
             }
         }
